@@ -3,6 +3,7 @@ import {Fragment} from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
+import SectionOne from '../components/SectionOne'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
         <title>Home | Script</title>
       </Head>
       <Hero />
+      <SectionOne />
     </Fragment>
   )
 }

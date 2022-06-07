@@ -25,7 +25,7 @@ const Hero = () => {
           <span className="flex mt-3 items-start space-x-3">
             <img alt="icon" src="/images/woman.jpg" className="bg-gray-300 rounded-full h-16 w-16 object-cover object-center shadow-md" />
             <div className="flex-1 flex flex-col space-y-3">
-                  <small className="text-sm font-medium text-gray-800">Falconar Agnes</small>
+                  <small className="text-sm font-medium text-gray-800">Jane Doe</small>
                   <p className="text-xs text-gray-700">May 20, 2022</p>
             </div>
           </span>
@@ -36,7 +36,7 @@ const Hero = () => {
           <span className="flex mt-3 items-start space-x-3">
             <img alt="icon" src="/images/woman-2.jpg" className="bg-gray-300 rounded-full h-16 w-16 object-cover object-center shadow-md" />
             <div className="flex-1 flex flex-col space-y-3">
-                  <small className="text-sm font-medium text-gray-800">Falconar Agnes</small>
+                  <small className="text-sm font-medium text-gray-800">Makeup Creator</small>
                   <p className="text-xs text-gray-700">May 20, 2022</p>
             </div>
           </span>
