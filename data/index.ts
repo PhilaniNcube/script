@@ -21,3 +21,49 @@ export const services: ServiceType[] = [
         image: '/images/consulting.jpg'
     },
 ];
+
+
+interface CategoryType {
+    name: string
+    tags: string
+    subtitle: string
+    bg: string
+    text: string
+    image: string 
+}
+
+export const categories:CategoryType[] = [
+    {
+        name: 'Cosmetics',
+        tags: 'cosmetics',
+        subtitle: 'Top cosmetics brands both local and international',
+        bg: 'bg-blue-700',
+        image: '/images/cosmetics.jpg',
+        text: 'text-green-800'
+    },
+    {
+        name: 'Fashion',
+        tags: 'fashion',
+        subtitle: 'Top and upcoming fashion labels',
+        bg: 'bg-red-700',
+        image: '/images/fashion.jpg',
+        text: 'text-green-800'
+    },
+    {
+        name: 'Footwear',
+        tags: 'footwear',
+        subtitle: 'The most desireable footwear labels',
+        bg: 'bg-yellow-700',
+        image: '/images/footwear.jpg',
+        text: 'text-green-800'
+    },
+    {
+        name: 'Organic',
+        tags: 'organic',
+        subtitle: 'Organic products and food locally sourced',
+        bg: 'bg-green-700',
+        image: '/images/organic.jpg',
+        text: 'text-green-800'
+    },
+
+]

@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
 import SectionOne from '../components/SectionOne'
+import SectionTwo from '../components/SectionTwo'
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <SectionOne />
+      <SectionTwo />
     </Fragment>
   )
 }
