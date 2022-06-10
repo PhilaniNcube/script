@@ -45,7 +45,7 @@ const services: LinkType[] = [
 const Navbar = () => {
   return (
     <header className="h-20">
-      <div className="max-w-7xl h-full mx-auto px-6 md:px-4 flex justify-between items-center">
+      <div className="max-w-7xl h-full mx-auto px-6 md:px-4 lg:px-0 flex justify-between items-center">
          <div className="py-4 flex text-red-600 items-center cursor-pointer">
            <Link href="/">
              <Fragment>

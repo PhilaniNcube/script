@@ -28,7 +28,7 @@ const AboutSectionOne = () => {
                         <Image src="/images/team3.jpg" width={300} height={300} alt="team" className="w-full object-cover aspect-square rounded-xl" />
                     </div>
                     <h3 className="text-gray-800 font-medium text-md md:text-lg">Yolanda Coetzee</h3>
-                    <p className="text-base text-gray-500">Bsuiness Development</p>
+                    <p className="text-base text-gray-500">Business Development</p>
                 </div>
                 <div className="w-full">
                     <div className="w-full overflow-hidden aspect-square rounded-xl">
