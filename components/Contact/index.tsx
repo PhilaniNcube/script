@@ -30,17 +30,17 @@ const Contact = () => {
                         <form className="p-3 w-full">
                              <div className="flex flex-col space-y-2">
                                  <label className="text-sm md:text-md font-medium text-gray-600" htmlFor="fullName">Full Name</label>
-                                 <input name="fullName" id="fullName" type="text" className="placeholder-gray-300 text-sm px-5 text-gray-400 focus:outline-none rounded-full focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-red-300 invalid:text-red-400 focus:invalid:border-red-300 border-gray-300 focus:invalid:ring-red-300" placeholder="Enter your full name"/>
+                                 <input name="fullName" id="fullName" type="text" className="placeholder-gray-300 text-sm px-5 text-gray-400 focus:outline-none rounded-full  focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-red-300 invalid:text-red-400 focus:invalid:border-red-300 border-gray-300 focus:invalid:ring-red-300" placeholder="Enter your full name"/>
                              </div>
                              <div className="flex flex-col space-y-2 mt-4">
                                  <label className="text-sm md:text-md font-medium text-gray-600" htmlFor="email">Email address</label>
-                                 <input name="email" id="email" type="email" className="placeholder-gray-300 text-sm px-5 text-gray-400 focus:outline-none rounded-full focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                                 <input name="email" id="email" type="email" className="placeholder-gray-300 text-sm px-5 text-gray-400 rounded-full focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                                  disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none border-gray-300                        invalid:border-red-300 invalid:text-red-400
                                  focus:invalid:border-red-300 focus:invalid:ring-red-300" placeholder="example@example.com"/>
                              </div>
                              <div className="flex flex-col space-y-2 mt-4">
                                  <label className="text-sm md:text-md font-medium text-gray-600" htmlFor="message">Message</label>
-                                 <textarea name="message" id="message" rows={5} className="placeholder-gray-300 text-sm px-5 text-gray-400 focus:outline-none rounded-lg focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                                 <textarea name="message" id="message" rows={5} className="placeholder-gray-300 text-sm px-5 text-gray-400 rounded-lg focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                                  disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none border-gray-300                        invalid:border-red-300 invalid:text-red-400
                                  focus:invalid:border-red-300 focus:invalid:ring-red-300" placeholder="Type your message"></textarea>
                              </div>
