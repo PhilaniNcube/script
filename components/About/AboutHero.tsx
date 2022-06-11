@@ -4,7 +4,7 @@ import Image from 'next/image'
 const AboutHero = () => {
   return (
     <main className="min-h-[60vh]">
-        <div className="max-w-7xl mx-auto min-h-[60vh] py-8">
+        <div className="max-w-7xl mx-auto min-h-[60vh] py-8 px-4">
             <div className="grid grid-cols-1 h-full min-h-[60vh] md:grid-cols-2 gap-6">
                 <div className="w-full h-full flex flex-col justify-center">
                     <h1 className="text-2xl md:text-4xl lg:text-5xl text-gray-700"><span><Image src="/images/thumb.png" width={40} height={40} /></span><span className="pl-2 font-bold">About Us</span></h1>
