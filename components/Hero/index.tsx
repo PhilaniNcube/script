@@ -7,7 +7,7 @@ const Hero = () => {
         <h2 className="text-xl md:text-3xl lg:text-5xl text-white md:pl-20 font-bold">Bringing Consumers, <br /> <span className="text-red-600">Influencers</span> and Brands<br />   Together</h2>
 
 
-        <div className="absolute bottom-0 translate-y-8 w-full">
+        <div className="hidden md:block absolute bottom-0 translate-y-8 w-full">
         <div className="md:grid grid-cols-3 gap-8 w-[80%] mx-auto">
           <div className="rounded-lg w-full bg-white h-[200px] shadow-xl p-4">
             <p className="px-3 text-sm font-medium rounded-full bg-red-200 text-red-800 inline-block">Tools</p>
