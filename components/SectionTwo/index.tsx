@@ -4,7 +4,7 @@ import {categories} from '../../data/index'
 const SectionTwo = () => {
   return (
     <section className="my-6 bg-gray-100 shadow-md">
-        <div className="max-w-7xl mx-auto py-8">
+        <div className="max-w-7xl mx-auto px-4 py-8">
             <h2 className="text-center text-2xl md:text-3xl lg:text-4xl text-gray-800 font-bold">Brand Categories</h2>
             <p className="text-md md:text-xl text-center text-gray-600">Connect with creators</p>
 

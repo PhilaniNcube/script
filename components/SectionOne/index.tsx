@@ -8,7 +8,7 @@ import {services} from '../../data/index'
 const SectionOne = () => {
   return (
     <section className="mt-24 mb-16">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-gray-800 font-medium text-2xl md:text-3xl lg:text-4xl">Featured creators</h2>
             <p className="text-gray-600 text-md md:text-lg lg:text-xl mt-3">Collaborate with brands and creators</p>
 
