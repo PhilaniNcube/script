@@ -14,13 +14,13 @@ const AboutHero = () => {
                 </div>
                 <div className="w-full h-full grid grid-cols-3 gap-3 lg:gap-6">
                     <div className="h-full flex items-center">
-                        <img src="/images/selfie.jpg" alt="selfie" className="h-3/4 w-full object-cover rounded-xl shadow-lg shadow-red-400/30" />
+                        <img src="/images/selfie.jpg" alt="selfie" className="h-3/4 w-full object-cover rounded-xl shadow-lg " />
                     </div>
                     <div className="h-full flex items-center">
-                        <img src="/images/lotion.jpg" alt="lotion" className="h-full w-full object-cover rounded-xl shadow-lg shadow-red-400/30" />
+                        <img src="/images/lotion.jpg" alt="lotion" className="h-full w-full object-cover rounded-xl shadow-lg " />
                     </div>
                     <div className="h-full flex items-center">
-                        <img src="/images/youth.jpg" alt="youth" className="h-3/4 w-full object-cover rounded-xl shadow-lg shadow-red-400/30" />
+                        <img src="/images/youth.jpg" alt="youth" className="h-3/4 w-full object-cover rounded-xl shadow-lg " />
                     </div>
                 </div>
             </div>

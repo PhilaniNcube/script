@@ -5,6 +5,7 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 import { BsFillCartFill } from "react-icons/bs";
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
+import Image from 'next/future/image';
 
 interface LinkType  {
   name: string
@@ -38,7 +39,7 @@ const services: LinkType[] = [
   },
   {
    name:'Consultations',
-   url: '/consultations' 
+   url: '/consultations'
   }
 ]
 
@@ -48,13 +49,12 @@ const Navbar = () => {
 const router = useRouter()
 
   return (
-    <header className="h-20">
+    <header className="min-h-20">
       <div className="max-w-7xl h-full mx-auto px-6 md:px-4 lg:px-0 flex justify-between items-center">
-         <div className="py-4 flex text-red-600 items-center cursor-pointer">
+         <div className="flex text-red-600 items-center cursor-pointer">
            <Link href="/">
              <Fragment>
-           <BsFillCartFill className="h-8 w-8" />
-               <p className="font-bold text-lg pl-1 uppercase">Script</p>
+               <Image src="/images/logo.png" alt="logo" className="h-16 w-16 object-cover" />
              </Fragment>
            </Link>
          </div>
@@ -94,7 +94,7 @@ const router = useRouter()
             {services.map(service => (
               <Menu.Item key={service.name}>
                   {({ active }) => (
-                    
+
                     <button
                     onClick={() => router.push(service.url)}
                         className={`${
@@ -103,7 +103,7 @@ const router = useRouter()
                         >
                             {service.name}
                       </button>
-                           
+
                   )}
               </Menu.Item>
             ))}
@@ -112,23 +112,23 @@ const router = useRouter()
         </Transition>
       </Menu>
       </nav>
- 
-
-             
-            
-        
-          
 
 
-      
-        
-         
+
+
+
+
+
+
+
+
+
 
         </div>
 
 
-      
-         
+
+
       <Link href="/login" passHref>
             <button className="ml-6 px-4 py-2 shadow-md  bg-green-600 hover:bg-green-700 text-white text-base uppercase rounded-full font-medium" >Get Started</button>
           </Link>

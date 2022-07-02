@@ -5,17 +5,17 @@ interface ServiceType {
 }
 
 export const services: ServiceType[] = [
-    { 
+    {
         title: 'Digital Entrepreneurship',
         subtitle: 'Become a certified and contracted digital entrepreneur under the Script Beauty & Brand Company',
         image: '/images/influencer.jpg'
     },
-    { 
+    {
         title: 'Product Partnerships',
         subtitle: 'Partner your brand and products with our platform and network of over 100 beauty and brand digital entrepreneurs',
         image: '/images/placement.jpg'
     },
-    { 
+    {
         title: 'Brand Development & Consultation',
         subtitle: 'Grow your business social and trade footprint in an evolving social economy, with our brand specific strategies and expertise',
         image: '/images/consulting.jpg'
@@ -29,7 +29,7 @@ interface CategoryType {
     subtitle: string
     bg: string
     text: string
-    image: string 
+    image: string
 }
 
 export const categories:CategoryType[] = [
@@ -50,19 +50,19 @@ export const categories:CategoryType[] = [
         text: 'text-green-800'
     },
     {
-        name: 'Footwear',
-        tags: 'footwear',
-        subtitle: 'The most desireable footwear labels',
+        name: 'Cosmeticians',
+        tags: 'cosmeticians',
+        subtitle: 'Produce your own products with top manufacturers',
         bg: 'bg-yellow-700',
-        image: '/images/footwear.jpg',
+        image: '/images/make.jpg',
         text: 'text-green-800'
     },
     {
-        name: 'Organic',
-        tags: 'organic',
-        subtitle: 'Organic products and food locally sourced',
+        name: 'Instore',
+        tags: 'instore',
+        subtitle: 'Locate a local beauty and cosmetics spot in your area',
         bg: 'bg-green-700',
-        image: '/images/organic.jpg',
+        image: '/images/shop.jpg',
         text: 'text-green-800'
     },
 
