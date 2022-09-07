@@ -129,7 +129,7 @@ const router = useRouter()
 
 
 
-      <Link href="/login" passHref>
+          <Link href="/contact" passHref>
             <button className="ml-6 px-4 py-2 shadow-md  bg-green-600 hover:bg-green-700 text-white text-base uppercase rounded-full font-medium" >Get Started</button>
           </Link>
 
