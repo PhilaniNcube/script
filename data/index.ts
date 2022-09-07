@@ -8,7 +8,7 @@ export const services: ServiceType[] = [
     {
         title: 'Digital Entrepreneurship',
         subtitle: 'Become a certified and contracted digital entrepreneur under the Script Beauty & Brand Company',
-        image: '/images/image_4.jpg'
+        image: '/images/image_4.JPG'
     },
     {
         title: 'Product Partnerships',
