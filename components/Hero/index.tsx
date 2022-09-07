@@ -15,7 +15,7 @@ const Hero = () => {
               <p className="px-3 text-sm font-medium rounded-full bg-red-200 text-red-800 inline-block">
                 Tools
               </p>
-              <h3 className="text-gray-800 font-bold text-lg leading-6 mt-3">
+              <h3 className="text-gray-800 font-bold text-lg tracking-wider leading-6 mt-3">
                 Becoming a Digital Entrepreneur
               </h3>
               <span className="flex mt-3 items-start space-x-3">
@@ -26,7 +26,7 @@ const Hero = () => {
                 />
                 <div className="flex-1 flex flex-col space-y-3">
                   <small className="text-sm font-medium text-gray-800">
-                    Falconar Agnes
+                    Debaneigh
                   </small>
                   <p className="text-xs text-gray-700">4 weeks course</p>
                 </div>
@@ -47,7 +47,7 @@ const Hero = () => {
                 />
                 <div className="flex-1 flex flex-col space-y-3">
                   <small className="text-sm font-medium text-gray-800">
-                    Jane Doe
+                    Kea
                   </small>
                   <p className="text-xs text-gray-700">4 weeks course</p>
                 </div>
@@ -68,7 +68,7 @@ const Hero = () => {
                 />
                 <div className="flex-1 flex flex-col space-y-3">
                   <small className="text-sm font-medium text-gray-800">
-                    Makeup Creator
+                    Shiona
                   </small>
                   <p className="text-xs text-gray-700">4 weeks course</p>
                 </div>

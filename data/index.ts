@@ -8,7 +8,7 @@ export const services: ServiceType[] = [
     {
         title: 'Digital Entrepreneurship',
         subtitle: 'Become a certified and contracted digital entrepreneur under the Script Beauty & Brand Company',
-        image: '/images/influencer.jpg'
+        image: '/images/image_4.jpg'
     },
     {
         title: 'Product Partnerships',
@@ -62,7 +62,7 @@ export const categories:CategoryType[] = [
         tags: 'instore',
         subtitle: 'Locate a local beauty and cosmetics spot in your area',
         bg: 'bg-green-700',
-        image: '/images/shop.jpg',
+        image: '/images/reception.jpg',
         text: 'text-green-800'
     },
 

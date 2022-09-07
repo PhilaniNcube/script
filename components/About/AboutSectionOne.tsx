@@ -6,21 +6,25 @@ const AboutSectionOne = () => {
     <div>
       <div className="max-w-7xl mx-auto min-h-[60vh] py-8 px-6 md:px-4 lg:px-0">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className='w-full pr-4'>
+          <div className="w-full pr-4">
             <h2 className="text-xl md:text-2xl font-bold lg:text-3xl text-gray-700">
               Our Mission
             </h2>
             <p className="text-md md:text-lg font-medium text-gray-600 max-w-[70ch] pr-5">
-              We aim to make a meaningful contribution to improving youth
-              entrepreneurship and digital marketing by improving the digital
-              and economic resilience of young people, for African businesses to
-              efficiently promote and profit on an e-commerce platform that
-              prioritizes an inclusive and sustainable social economic trade.
+              Building a new status quo for partnership and revenue capacity for
+              social-entrepreneurship, brand development and ecommerce trading.
+              By creating a dynamic and channels to earning, product placement
+              and mass advertising for shared profits and business growth.
+              Scripting partnerships, marketing and retail activities suited for
+              every need.
             </p>
           </div>
-          <video className="w-full aspect-video rounded-lg" autoPlay={false} controls={true}>
-            <source src="/images/video.mp4" type="video/mp4"/>
-
+          <video
+            className="w-full aspect-video rounded-lg"
+            autoPlay={false}
+            controls={true}
+          >
+            <source src="/images/video.mp4" type="video/mp4" />
           </video>
         </div>
 
@@ -28,22 +32,22 @@ const AboutSectionOne = () => {
           <div className="w-full">
             <div className="w-full overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/images/team1.jpg"
+                src="/images/noxolo.jpg"
                 width={300}
                 height={300}
-                alt="team"
+                alt="ceo"
                 className="w-full object-cover aspect-square rounded-xl"
               />
             </div>
             <h3 className="text-gray-800 font-medium text-md md:text-lg">
-              Andile Gumede
+              Noxolo Thabatha
             </h3>
-            <p className="text-base text-gray-500">Co-founder and CEO</p>
+            <p className="text-base text-gray-500">Founder and CEO</p>
           </div>
           <div className="w-full">
             <div className="w-full overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/images/team2.jpg"
+                src="/images/zia.jpg"
                 width={300}
                 height={300}
                 alt="team"
@@ -51,14 +55,14 @@ const AboutSectionOne = () => {
               />
             </div>
             <h3 className="text-gray-800 font-medium text-md md:text-lg">
-              Lerato Mokoena
+              Zia Thabatha
             </h3>
-            <p className="text-base text-gray-500">Co-founder and COO</p>
+            <p className="text-base text-gray-500">COO</p>
           </div>
           <div className="w-full">
             <div className="w-full overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/images/team3.jpg"
+                src="/images/noni.jpg"
                 width={300}
                 height={300}
                 alt="team"
@@ -66,14 +70,14 @@ const AboutSectionOne = () => {
               />
             </div>
             <h3 className="text-gray-800 font-medium text-md md:text-lg">
-              Yolanda Coetzee
+              Noni Peter
             </h3>
-            <p className="text-base text-gray-500">Business Development</p>
+            <p className="text-base text-gray-500">Business Manager</p>
           </div>
           <div className="w-full">
             <div className="w-full overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/images/team4.jpg"
+                src="/images/kia.jpg"
                 width={300}
                 height={300}
                 alt="team"
@@ -81,9 +85,9 @@ const AboutSectionOne = () => {
               />
             </div>
             <h3 className="text-gray-800 font-medium text-md md:text-lg">
-              Lwazi Zola
+              Kea Shupi
             </h3>
-            <p className="text-base text-gray-500">Brand Specialists</p>
+            <p className="text-base text-gray-500">Brand Specialist</p>
           </div>
         </div>
       </div>
