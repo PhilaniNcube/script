@@ -13,7 +13,7 @@ export const services: ServiceType[] = [
     {
         title: 'Product Partnerships',
         subtitle: 'Partner your brand and products with our platform and network of over 100 beauty and brand digital entrepreneurs',
-        image: '/images/placement.jpg'
+        image: '/images/image_5.jpg'
     },
     {
         title: 'Brand Development & Consultation',
