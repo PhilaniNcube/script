@@ -12,7 +12,7 @@ const SectionTwo = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mt-6">
                 {categories.map((category, i) => (
                     <div key={i} className="rounded-xl overflow-hidden w-full shadow-lg p-4 min-h-[60vh] relative flex items-end">
-                        <Image src={category.image} alt={category.tags} className="absolute inset-0 w-full h-full object-cover z-0" />
+                        <Image src={category.image} alt={category.tags} width={640} height={960} className="absolute inset-0 w-full h-full object-cover z-0" />
                         <div className="bg-white/75 hover:bg-white/90 h-1/3 w-full z-10 rounded-xl text-gray-800 shadow-lg shadow-gray-800/70 hover:shadow-gray-600/40 transition-all ease-in-out  p-2">
                             <span className={`text-white bg-red-700/80 rounded-full font-medium py-1 px-2 text-xs uppercase`}>{category.tags}</span>
                             <p className="font-medium text-md text-gray-600 mt-4">{category.subtitle}</p>
